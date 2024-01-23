@@ -4,7 +4,8 @@ www.dio.me
 💻 Desafio de projeto!
 Para este desafio, eu precisei usar meus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
 
-📃 Contexto
+📃 Contexto:
+
 Fui contratada para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo:
 
 🔹 Adicionar um veículo
@@ -13,7 +14,8 @@ Fui contratada para construir um sistema para um estacionamento, que será usado
 
 🔹 Listar os veículos
 
-📋 Proposta
+📋 Proposta:
+
 Construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
 
 ![Diagrama de classe estacionamento](diagrama_classe_estacionamento.png)
