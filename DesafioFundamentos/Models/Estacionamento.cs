@@ -18,7 +18,7 @@ namespace DesafioFundamentos.Models
             Console.WriteLine("Digite a placa do veículo que deseja estacionar:");
             string placa = Console.ReadLine();
 
-            // verificando se a entrada está vazia ou nula - outra forma de fazer: if (placa != "" && placa != null)
+            // verificando se a entrada está válida
             if (string.IsNullOrEmpty(placa) || placa.Length != 7)
             {
                 Console.WriteLine("Placa inválida. Precisa conter 7 caracteres.");
@@ -54,7 +54,7 @@ namespace DesafioFundamentos.Models
         // metodo 3 - listar os veiculos
         public void ListarVeiculos()
         {
-            // verificando se existe veiculos estacionados e listando
+            // verificando se existe veiculos estacionados e listando eles
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
